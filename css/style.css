@@ -23,7 +23,7 @@ h6 {
 }
 
 #header {
-  background: rgba(58, 193, 255, 0.856);
+  background: rgba(250, 38, 38, 0.856);
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -214,6 +214,7 @@ h6 {
   margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
+  text-align: center;
 }
 
 #hero p {
@@ -323,6 +324,7 @@ h6 {
   margin-bottom: 20px;
   text-transform: uppercase;
   color: white;
+  text-align: center;
 }
 
 .about .content h3 {
@@ -354,6 +356,10 @@ h6 {
 
 .about .content p {
   color: white;
+  text-align: justify;
+  text-justify: auto;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .about .content p:last-child {
@@ -391,41 +397,31 @@ main {
   padding: 20px;
 }
 
-.about .content p,
-.about .content ul {
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-.about .content img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-/* Estilo del pie de página */
 #footer {
   background-color: #333;
   padding: 20px 0;
-  text-align: center;
-  color: #fff;
+  
 }
-
+footer p{
+  text-align: left;
+  color: #fff;
+margin-left: 3%;
+}
 .about .content {
   padding: 20px;
-  text-align: justify; /* Alinear el texto justificado */
+  text-align: justify;
 }
 
 .about .content p,
 .about .content ul {
   color: #fff;
   margin-bottom: 20px;
-  line-height: 1.5; /* Aumentar el espaciado entre líneas */
+  line-height: 1.5; 
 }
 
 .about .content img {
-  max-width: 200px; /* Ajustar el tamaño de las imágenes según tu preferencia */
+  max-width: 400px; 
   height: auto;
   display: block;
-  margin: 20px auto; /* Centrar las imágenes y agregar espacio alrededor */
+  margin: 20px auto; 
 }
