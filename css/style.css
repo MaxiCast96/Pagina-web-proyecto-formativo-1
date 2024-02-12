@@ -4,12 +4,6 @@ body {
 }
 
 
-h1,
-h2,
-h3{
-  font-family: "Raleway", sans-serif;
-}
-
 #header {
   background: rgba(250, 38, 38, 0.856);
   transition: all 0.5s;
@@ -18,14 +12,7 @@ h3{
   font-family: 'Segoe UI';
 }
 
-#header.header-scrolled {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 12px 0;
-}
 
-#header.header-inner-pages {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
 
 #header .logo {
   font-size: 28px;
@@ -110,11 +97,6 @@ h3{
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #fff;
-}
 
 .navbar .dropdown:hover>ul {
   opacity: 1;
@@ -194,29 +176,12 @@ h3{
   color: #fff;
 }
 
-#hero .carousel-inner .carousel-item {
-  transition-property: opacity;
-  background-position: center top;
-}
-
-
 #hero .carousel-control-next-icon:hover,
 #hero .carousel-control-prev-icon:hover {
   background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.8);
 }
 
-#hero .carousel-indicators li {
-  cursor: pointer;
-  background: #fff;
-  overflow: hidden;
-  border: 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50px;
-  opacity: 0.6;
-  transition: 0.3s;
-}
 
 #hero .carousel-indicators li.active {
   opacity: 1;
@@ -261,13 +226,10 @@ h3{
   text-transform: uppercase;
   color: white;
   text-align: center;
-}
-
-.about .content h3 {
   font-weight: 500;
   line-height: 32px;
   font-size: 24px;
-  color: white;
+  
 }
 
 .about .content ul {
@@ -301,10 +263,6 @@ h3{
 .about .content p:last-child {
   margin-bottom: 0;
   color: white;
-}
-
-main {
-  background-color: rgba(83, 83, 83, 0.733);
 }
 
 video {
